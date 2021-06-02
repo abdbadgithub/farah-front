@@ -1,0 +1,17 @@
+#skillsheaders th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff1cd2;
+    color: white;
+}
+.skillupdatebtn,.skilldeletebtn{
+    border:1px solid #ff1cd2;
+    height: 50px;
+}
+
+.skillupdatebtn:hover,.skilldeletebtn:hover
+    {   
+    background-color: #ff1cd2;
+    color: white;
+}

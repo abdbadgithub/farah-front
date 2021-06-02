@@ -1,0 +1,129 @@
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #fff;
+    color: #999;
+    line-height: 2;
+  height:100%;
+min-height:100%; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Poppins";
+    }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  
+  
+  .content {
+    padding: 4rem 0; }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700; }
+  
+  h3, div p {
+    font-size: 0.8rem;
+    font-weight: 700; }
+  
+  .form-control {
+    border: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 0; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  
+  
+  .btn, .form-control {
+    height: 55px; }
+  
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  
+  label.error {
+    font-size: 6px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+     }
+  
+     
+
+.form-group input[type="text"],.form-group textarea{
+    border:2px solid #FF1CD2;
+    background-color:black;
+    border-radius: 5px;
+    color: white;
+}
+
+.form-group input[type="text"]{
+  height: 50px;
+}
+
+::placeholder{
+    opacity: 0.5;
+    color:white;
+}
+
+input[type= "submit"]{
+    border:2px solid #FF1CD2;
+    background-color:black;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF1CD2;
+}
+input[type= "submit"]:hover{
+  background-color: white;
+  color:black;
+}
+
+input:focus ,textarea:focus { 
+    color: white;
+    outline: none;    
+}
+
+span img{
+  background-color:#FF1CD2;
+  border-radius: 10px;
+}
+
+h2{
+  margin-top:50px;
+}
+
+.form-group{
+  margin-top:35px;
+}
+
+mb-5{
+  font-family: poppins;
+  font-size: 18px;
+}
+
+footer{
+  max-height: 100%;
+  width: 100%;
+}

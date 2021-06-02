@@ -1,0 +1,41 @@
+.btn-blog-update,.btn-blog-delete{
+    border:1px solid #ff1cd2;
+    height: 50px;
+    
+}
+
+.btn-blog-update:hover,.btn-blog-delete:hover{
+    background-color: #ff1cd2;
+    color: white;
+    
+}
+#headers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff1cd2;
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+tr td input,tr td textarea{
+    border:1px solid #ff1cd2;
+    height: 50px;
+    text-align: center;
+}
+
+tr td input:focus,tr td textarea:focus{
+    color:black;
+    text-align: center;
+}
+
+th{
+    position: sticky;
+  top: 0;
+}

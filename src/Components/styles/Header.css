@@ -1,0 +1,56 @@
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  
+  .nav-item:active{
+    background-color:#FF1CD2;
+  }
+  
+  .navbar-collapse{
+    height : 70px;
+  }
+  
+  .navbar-expand-md{
+    height : 70px;
+  }
+  
+  ul {
+    height: 70px;
+    align-items: center;
+    font-family: Poppins;
+  }
+  
+  li{
+  height:70px;
+  padding-left:10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+  
+  .navbar-brand{
+    padding-left: 20px;
+  }
+  
+  div ul li:hover{
+    background-color: #FF1CD2;
+  }
+
+  #header-container{
+    background-color: black !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #collapsibleNavbar ul li{
+    background-color: black;
+    width: 100%;
+    margin:0px;
+    justify-content: center;
+  }
+  #collapsibleNavbar .nav-item {
+    background-color:#FF1CD2;
+    
+}
+   
+}

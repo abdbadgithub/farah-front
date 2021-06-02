@@ -1,0 +1,213 @@
+.btn-primary {
+  width: 180px;
+  padding: 15px 32px;
+  color: #ff1cd2;
+  background-color: white;
+  border-color: #ff1cd2;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #ff1cd2;
+  border-color: #ff1cd2;
+}
+
+.card-title {
+  color: #ff1cd2;
+  font-size: 25px;
+}
+
+.card-text {
+  color: gray;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+.first {
+  margin-right: 20px;
+}
+
+.main-footer {
+  /* background-color:   #449de6; */
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.hrAbout {
+  background-color: #449de6;
+}
+
+.col {
+  color: #449de6;
+}
+
+.col-sm {
+  background-color: black;
+  color: #449de6;
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+.blogrow {
+  
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.rowbuttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 2%;
+  margin-top: 2%;
+  margin-right: 9%;
+}
+
+.btnsub,
+.inputemail {
+  height: 40px;
+  font-size: 15px;
+}
+
+.inputemail {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #449de6;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.socialFollow {
+  color: grey;
+}
+
+.btnsub {
+  width: 100px;
+  background-color: transparent;
+  border: 2px solid #449de6;
+  color: white;
+  font-weight: bold;
+}
+
+.btnsub:focus {
+  outline: none;
+}
+
+.btnsub:hover {
+  color: #fff;
+  background-color: #449de6;
+  border-color: none;
+}
+
+.columnnn {
+  text-align: center;
+}
+
+.second-part {
+  height: auto;
+  padding: 10px;
+  /* background-color: rgb(163, 153, 153);  */
+  background-color: black;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.social-container {
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+h3 {
+  color: #449de6;
+}
+
+@media screen and (max-width: 800px) {
+  .second-part {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .second-part {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .rowbuttons {
+    /* margin-left: auto;
+      margin-right: auto; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .col1 {
+    margin-bottom: 5px;
+  }
+}
+
+.cards {
+  grid-area: cards;
+}
+
+.recents {
+  margin-left: 10px;
+  
+}
+
+.recent-post {
+  margin-left: 10px;
+}
+
+.recent {
+  grid-area: recent;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  
+}
+.bloggrid-container {
+  display: grid;
+  grid-template-areas: "cards cards cards cards recent recent";
+}
+
+.card {
+  padding-right: 25px;
+}
+
+.recentTab {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.skillgrid-1{
+    grid-area:skillgrid-1;
+}
+
+.skillgrid-2{
+    grid-area:skillgrid-2;
+}
+
+.skillgrid-3{
+    grid-area:skillgrid-3;
+}
+
+.skillgrid-4{
+    grid-area:skillgrid-4;
+}
+.skillgrid-5{
+    grid-area:skillgrid-5;
+}
+
+.skillgrid-container{
+    display: grid;
+    grid-template-areas:
+    'skillgrid-1 skillgrid-1 skillgrid-1 skillgrid-2 skillgrid-2 skillgrid-2' 
+    'skillgrid-3 skillgrid-3 skillgrid-3 skillgrid-4 skillgrid-4 skillgrid-4'
+    'grid grid grid skillgrid-5 skillgrid-5 skillgrid-5' ;
+    grid-gap: 20px;
+}

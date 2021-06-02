@@ -1,0 +1,35 @@
+.Bloggrid-1{
+    grid-area:Bloggrid-1;
+}
+
+.Bloggrid-2{
+    grid-area:Bloggrid-2;
+}
+
+.Bloggrid-3{
+    grid-area:Bloggrid-3;
+}
+
+.Bloggrid-4{
+    grid-area:Bloggrid-4;
+}
+.Bloggrid-5{
+    grid-area:Bloggrid-5;
+}
+
+.Bloggrid-6{
+    grid-area:Bloggrid-6;
+}
+.Bloggrid-7{
+    grid-area:Bloggrid-7;
+}
+
+.Bloggrid-container{
+    display: grid;
+    grid-template-areas:
+    'Bloggrid-1 Bloggrid-1 Bloggrid-1 Bloggrid-2 Bloggrid-2 Bloggrid-2' 
+    'Bloggrid-3 Bloggrid-3 Bloggrid-3 Bloggrid-4 Bloggrid-4 Bloggrid-4'
+    'Bloggrid-5 Bloggrid-5 Bloggrid-5 Bloggrid-6 Bloggrid-6 Bloggrid-6'
+    'grid grid grid Bloggrid-7 Bloggrid-7 Bloggrid-7' ;
+    grid-gap: 20px;
+}

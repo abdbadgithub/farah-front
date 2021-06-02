@@ -1,0 +1,245 @@
+.bg img{
+    border-radius: 360px;
+    margin-left:12px;
+    width:530px;
+    height:530px;
+    border:10px solid #FF1CD2;
+    
+}
+
+.bg img:hover{
+    
+        transition:transform 0.6s;
+        transform: rotateY(180deg);
+        
+
+}
+.box {
+    width: 100px;
+    height: 30px;
+    background-color: #FF1CD2;
+    color: #fff;
+    position: relative;
+    margin-top:40px;
+    margin-left:40px;
+    padding-left:10px
+
+  }
+  
+
+  .box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    border-top: 10px solid #FF1CD2;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: none;
+  }
+  .name{
+      font-family: poppins;
+      font-size: 58px;
+      font-weight: bolder;
+      text-shadow: 0 0.5px 1px #FF1CD2, 
+      0.25px 0.75px 1px #FF1CD2, 
+      0 2px 0.75px #FF1CD2, 
+      0 2.75px 1px #FF1CD2,
+      0 3.5px 1px #FF1CD2,
+      0 4.25px 1px #FF1CD2,
+      0 5px 1px #FF1CD2;
+  }
+
+.bio{
+    font-family: poppins;
+    font-size: 15;
+    color: gray;
+}
+
+.btn-download{
+    margin-top :30px;
+    width:200px;
+    height:63px;
+    color:white;
+    background-color: #FF1CD2;
+    
+}
+
+.btn-work{
+    margin-top :30px;
+    width:200px;
+    height:63px;
+    color:#FF1CD2;
+    border-color: #FF1CD2;
+    margin-left:50px
+}
+
+.quote p{
+   
+    font-family: Courgette;
+    font-size:23px;
+    color:grey
+}
+
+
+.float{
+    float: right;
+}
+.item1-4{
+    margin-bottom: 100px;
+}
+
+
+
+.item1{grid-area:item1}
+.item1-2{grid-area:item1-2}
+.item1-3{grid-area:item1-3}
+.item1-4 {grid-area:item1-4}
+.item1-5{grid-area:item1-5}
+.item-2{grid-area:item-2}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'item1 item1 item1 item-2 item-2 item-2';
+    
+  grid-gap: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'item1-2 item1-2 item1-2 item-2 item-2 item-2'
+        'item1-3 item1-3 item1-3'
+        'item1-4 item1-4 item1-4 item1-4 item1-4 item1-4'
+        
+        ;
+        
+      grid-gap: 10px;
+    }
+    .bg img{
+        width:330px;
+        height:330px;
+    
+    
+    }
+    .item1-4{
+        margin-bottom: 70px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 993px) {
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'item1-2 item1-2 item1-2 item-2 item-2 item-2'
+        'item1-3 item1-3 item1-3'
+        'item1-4 item1-4 item1-4 item1-4 item1-4 item1-4'
+        
+        ;
+        
+      grid-gap: 10px;
+    }
+    .bg img{
+        width:330px;
+    height:330px;
+    }
+
+    .name{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: bolder;
+        text-shadow: 0 0.5px 1px #FF1CD2, 
+        0.25px 0.75px 1px #FF1CD2, 
+        0 2px 0.75px #FF1CD2, 
+        0 2.75px 1px #FF1CD2,
+        0 3.5px 1px #FF1CD2,
+        0 4.25px 1px #FF1CD2,
+        0 5px 1px #FF1CD2;
+    }
+  
+  .bio{
+      font-family: poppins;
+      font-size: 12px !important;
+      color: gray;
+  }
+  
+  .btn-download{
+      margin-top :30px;
+      width:120px;
+      height:43px;
+      color:white;
+      background-color: #FF1CD2;
+      
+  }
+  
+  .btn-work{
+      margin-top :30px;
+      width:100px;
+      height:43px;
+      color:#FF1CD2;
+      border-color: #FF1CD2;
+      margin-left:50px
+  }
+  
+  .quote p{
+     
+      font-family: Courgette;
+      font-size:13px;
+      color:grey;
+      
+  }
+  .item1-4{
+      margin-bottom: 70px;
+  }
+
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'item2 item2 item2 item2 item2 item2'
+        'item2 item2 item2 item2 item2 item2'
+        'item2 item2 item2 item2 item2 item2'
+        'item1 item1 item1 item1 item1 item1'
+        'item1-5 item1-5 item1-5 item1-5 item1-5 item1-5'
+        ;
+        
+    
+    }
+    .item1{
+        margin-left:120px;
+    }
+    .bg{
+        margin-left:60px;
+    }
+
+    .item1-4{
+        margin-bottom: 40px;
+    }
+    
+    
+    .item1-5{
+        
+        width: 350px;
+    }
+  }
+
+  @media only screen and (max-width: 556px) {
+    .item1-5{
+        margin-left:-30px;
+    }
+
+    .quote p{
+        margin-left:-10px !important;
+        width: 350px;
+    }
+    .item1{
+        margin-left:120px;
+    }
+  }

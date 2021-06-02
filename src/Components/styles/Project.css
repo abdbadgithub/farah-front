@@ -1,0 +1,36 @@
+.clients-box{
+        border :2px lightsteelblue;
+        border-style :dashed;
+        color  : white;
+        width :200px;
+        height: 200px;
+        margin :15px;
+        text-align:center;
+        font-size :30px;
+        color :#ff1cd2;
+        border-radius: 10px ;
+        font-style: italic;
+       
+}
+header{
+    margin-top: 1em;
+}
+.clients-box:hover{
+    background-color: #ff1cd2;
+    color: black;
+    box-shadow: 100px white;
+    cursor: pointer;
+    border-style :none;
+    
+}
+
+.cotainer-projects{
+    
+    display:flex;
+    flex-direction: row;
+    gap: 112px;
+    justify-content: center;
+    align-items: center;
+   
+}
+

@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    min-height:100%;
+  }
+
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.carousel-indicators li {
+    border: none;
+    background: #ccc;
+}
+
+.carousel,footer{
+    color:white;
+    background-color: black;
+}
+
+#block{
+    background-color: black;
+}
+
+p i,cite{
+    color:#FF1CD2;
+}
+
+.testimonials{
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+

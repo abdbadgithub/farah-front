@@ -1,0 +1,108 @@
+.skill-img img{
+        border-radius: 360px;
+        border:10px solid #ff1cd2;
+}
+
+.sgrid-1{grid-area:sgrid-1}
+.sgrid-2{grid-area:sgrid-2}
+
+.card{
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add some padding inside the card container */
+      
+      .grid-container-skills{
+        display: grid;
+        grid-template-areas:
+        'sgrid-1 sgrid-1 sgrid-1 sgrid-2 sgrid-2 sgrid-2'
+        ;
+        
+      grid-column-gap:120px;
+    }
+.sgrid-2{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top:40px;
+}
+
+
+
+    .flip-card {
+      background-color: transparent;
+      width: 100px;
+      height: 100px;
+      perspective: 1000px;
+      box-shadow: 10px black;
+      margin-right: 70px;
+      margin-bottom: -100px;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-color: white;
+      border:1px solid #ff1cd2;
+      color: black;
+    }
+    
+    .flip-card-back {
+      background-color: white;
+      border:1px solid #ff1cd2;
+      color: black;
+      transform: rotateY(180deg);
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .grid-container-skills{
+        display: grid;
+        grid-template-areas:
+        'sgrid-1 sgrid-1 sgrid-1 sgrid-1 sgrid-1 sgrid-1'
+        'sgrid-2 sgrid-2 sgrid-2 sgrid-2 sgrid-2 sgrid-2'
+        ;
+        
+      grid-row-gap:80px;
+        
+    }
+    .sgrid-1{
+      
+      width:200px;
+    }
+    .sgrid-2{
+      margin-bottom: 100px;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-flow: row;
+      
+      flex-direction: row;
+    }
+    }
